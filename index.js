@@ -1,42 +1,22 @@
 // index.js
-const head   = require('./head');
-const tail   = require('./tail');
-const middle = require('./middle');
-const assertEqual = require('./assertEqual');
-const assertArraysEqual = require('./assertArraysEqual');
-const assetObjectsEqual = require('./assertObjectsEqual')
-const countLetters = require('./countLetters');
-const countOnly = require('./countOnly'); 
-const eqArrays = require('./eqArrays');
-const eqObjects = require('./eqObjects');
-const findKey = require('./findKey');
-const findKeyByValue = require('./findKeyByValue');
-const flatten = require ('./flatten');
-const letterPositions = require('./letterPositions');
-const map = require('./map');
-const obfuscate = require('./password');
-const takeUntil = require('./takeUntil');
-const without = require('./without');
-
-
-module.exports = {
-  head:   head,
-  tail:   tail,
-  middle: middle,
-  assertEqual: assertEqual,
-  assertArraysEqual: assertArraysEqual,
-  assetObjectsEqual: assetObjectsEqual,
-  countLetters: countLetters,
-  countOnly : countOnly,
-  eqArrays : eqArrays,
-  eqObjects: eqObjects,
-  findKey: findKey,
-  findKeyByValue: findKeyByValue,
-  flatten: flatten,
-  letterPositions: letterPositions,
-  map: map,
-  obfuscate: obfuscate,
-  takeUntil: takeUntil,
-  without: without
+ module.exports = {
+  head:  require('./head') ,
+  tail:   require('./tail'),
+  middle: require('./middle'),
+  assertEqual: require('./assertEqual'),
+  assertArraysEqual: require('./assertArraysEqual'),
+  assetObjectsEqual: require('./assertObjectsEqual'),
+  countLetters: require('./countLetters'),
+  countOnly : require('./countOnly'),
+  eqArrays : require('./eqArrays'),
+  eqObjects: require('./eqObjects'),
+  findKey: require('./findKey'),
+  findKeyByValue: require('./findKeyByValue'),
+  flatten: require ('./flatten'),
+  letterPositions: require('./letterPositions'),
+  map: require('./map'),
+  obfuscate: require('./password'),
+  takeUntil: require('./without'),
+  without: require('./without')
 
 };
